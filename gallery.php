@@ -5,14 +5,14 @@
     <title>Gallery - WPMS</title>
     <style>
         body { font-family: Arial; background: #f0f0f0; padding: 20px; margin: 0; }
-        .header { background: #E91E63; color: white; padding: 20px; text-align: center; margin-bottom: 30px; }
+        .header { background: #6f42c1; color: white; padding: 20px; text-align: center; margin-bottom: 30px; }
         .container { max-width: 1200px; margin: 0 auto; }
         .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
         .gallery-item { background: white; border-radius: 5px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
         .gallery-item img { width: 100%; height: 250px; object-fit: cover; }
-        .gallery-item h4 { padding: 15px; margin: 0; color: #E91E63; background: #f9f9f9; }
+        .gallery-item h4 { padding: 15px; margin: 0; color: #6f42c1; background: #f9f9f9; }
         .gallery-item p { padding: 0 15px 15px; margin: 0; font-size: 14px; color: #666; }
-        a { color: #E91E63; text-decoration: none; }
+        a { color: #6f42c1; text-decoration: none; }
     </style>
 </head>
 <body>
@@ -21,7 +21,7 @@
         <p>Browse our beautiful wedding collections</p>
     </div>
     <div class="container">
-        <h2 style="text-align: center; color: #E91E63; margin-top: 30px;">Myanmar Style Weddings</h2>
+        <h2 style="text-align: center; color: #6f42c1; margin-top: 30px;">Myanmar Style Weddings</h2>
         <div class="gallery">
             <div class="gallery-item">
                 <img src="https://via.placeholder.com/300x250/8B4513/FFFFFF?text=Burmese+Tradition" alt="Myanmar Wedding">
@@ -40,7 +40,7 @@
             </div>
         </div>
 
-        <h2 style="text-align: center; color: #E91E63; margin-top: 40px;">European Style Weddings</h2>
+        <h2 style="text-align: center; color: #6f42c1; margin-top: 40px;">European Style Weddings</h2>
         <div class="gallery">
             <div class="gallery-item">
                 <img src="https://via.placeholder.com/300x250/FFB6C1/FFFFFF?text=Church+Wedding" alt="European Church">

@@ -5,22 +5,22 @@
     <title>Pricing - WPMS</title>
     <style>
         body { font-family: Arial; background: #f0f0f0; padding: 20px; margin: 0; }
-        .header { background: #E91E63; color: white; padding: 20px; text-align: center; margin-bottom: 30px; }
+        .header { background: #6f42c1; color: white; padding: 20px; text-align: center; margin-bottom: 30px; }
         .container { max-width: 1200px; margin: 0 auto; }
         .currency-toggle { text-align: center; margin-bottom: 20px; }
-        .currency-toggle button { background: #E91E63; color: white; padding: 8px 15px; border: none; border-radius: 3px; cursor: pointer; margin: 0 5px; }
-        .currency-toggle button.active { background: #c2185b; }
+        .currency-toggle button { background: #6f42c1; color: white; padding: 8px 15px; border: none; border-radius: 3px; cursor: pointer; margin: 0 5px; }
+        .currency-toggle button.active { background: #5a2fa0; }
         .packages { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
         .package { background: white; padding: 20px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .package h3 { color: #E91E63; margin-top: 0; }
-        .price { font-size: 28px; font-weight: bold; color: #E91E63; margin: 15px 0; }
+        .package h3 { color: #6f42c1; margin-top: 0; }
+        .price { font-size: 28px; font-weight: bold; color: #6f42c1; margin: 15px 0; }
         .price-usd { display: none; }
         .price-kyat { display: block; }
         ul { margin: 15px 0; padding-left: 20px; }
         ul li { margin: 8px 0; }
-        button.book { background: #E91E63; color: white; padding: 12px 20px; border: none; border-radius: 3px; cursor: pointer; width: 100%; margin-top: 15px; font-size: 16px; }
-        button.book:hover { background: #c2185b; }
-        a { color: #E91E63; text-decoration: none; }
+        button.book { background: #6f42c1; color: white; padding: 12px 20px; border: none; border-radius: 3px; cursor: pointer; width: 100%; margin-top: 15px; font-size: 16px; }
+        button.book:hover { background: #5a2fa0; }
+        a { color: #6f42c1; text-decoration: none; }
     </style>
 </head>
 <body>

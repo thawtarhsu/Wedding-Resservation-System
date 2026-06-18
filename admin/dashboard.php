@@ -13,16 +13,16 @@ if (!isset($_SESSION['admin_logged_in'])) {
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: Arial; background: #f5f5f5; }
-        .header { background: #E91E63; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+        .header { background: #6f42c1; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
         .header h1 { margin: 0; }
         .header a { color: white; text-decoration: none; margin-left: 20px; }
         .header a:hover { text-decoration: underline; }
         .container { max-width: 1000px; margin: 20px auto; padding: 20px; }
         .box { background: white; padding: 30px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); text-align: center; }
-        .box h2 { color: #E91E63; margin-bottom: 15px; }
+        .box h2 { color: #6f42c1; margin-bottom: 15px; }
         .box p { color: #666; margin-bottom: 20px; }
-        .btn { display: inline-block; padding: 12px 30px; background: #E91E63; color: white; text-decoration: none; border-radius: 5px; margin: 10px 5px; }
-        .btn:hover { background: #c2185b; }
+        .btn { display: inline-block; padding: 12px 30px; background: #6f42c1; color: white; text-decoration: none; border-radius: 5px; margin: 10px 5px; }
+        .btn:hover { background: #5a2fa0; }
     </style>
 </head>
 <body>

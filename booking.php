@@ -42,21 +42,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: Arial; background: #f5f5f5; }
         .nav { background: white; padding: 15px 30px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .nav a { color: #E91E63; text-decoration: none; margin-right: 20px; }
+        .nav a { color: #6f42c1; text-decoration: none; margin-right: 20px; }
         .container { max-width: 600px; margin: 40px auto; padding: 20px; }
         .form-box { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .form-box h1 { color: #E91E63; margin-bottom: 20px; text-align: center; }
+        .form-box h1 { color: #6f42c1; margin-bottom: 20px; text-align: center; }
         .form-group { margin-bottom: 15px; }
         label { display: block; margin-bottom: 5px; color: #333; font-weight: 500; }
         input, select { width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 5px; font-size: 14px; }
-        input:focus, select:focus { outline: none; border-color: #E91E63; box-shadow: 0 0 0 3px rgba(233,30,99,0.1); }
-        button { width: 100%; padding: 12px; background: #E91E63; color: white; border: none; border-radius: 5px; font-size: 16px; font-weight: 600; cursor: pointer; margin-top: 10px; }
-        button:hover { background: #c2185b; }
+        input:focus, select:focus { outline: none; border-color: #6f42c1; box-shadow: 0 0 0 3px rgba(111,66,193,0.1); }
+        button { width: 100%; padding: 12px; background: #6f42c1; color: white; border: none; border-radius: 5px; font-size: 16px; font-weight: 600; cursor: pointer; margin-top: 10px; }
+        button:hover { background: #5a2fa0; }
         .message { padding: 15px; border-radius: 5px; margin-bottom: 20px; }
         .error { background: #ffebee; color: #c62828; border-left: 4px solid #c62828; }
         .success { background: #e8f5e9; color: #2e7d32; border-left: 4px solid #2e7d32; }
         .back { text-align: center; margin-top: 20px; }
-        .back a { color: #E91E63; text-decoration: none; }
+        .back a { color: #6f42c1; text-decoration: none; }
         .booking-id { background: #e3f2fd; padding: 15px; border-radius: 5px; margin-top: 20px; text-align: center; }
     </style>
 </head>

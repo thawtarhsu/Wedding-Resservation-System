@@ -18,18 +18,18 @@ $total = count($bookings);
 <head><title>Reservations</title>
 <style>
 body{font-family:Arial;background:#f5f5f5;margin:0}
-.header{background:#E91E63;color:white;padding:20px;display:flex;justify-content:space-between}
+.header{background:#6f42c1;color:white;padding:20px;display:flex;justify-content:space-between}
 .container{max-width:1200px;margin:20px auto;padding:20px}
 table{width:100%;background:white;border-collapse:collapse;border-radius:5px}
-th{background:#E91E63;color:white;padding:15px;text-align:left}
+th{background:#6f42c1;color:white;padding:15px;text-align:left}
 td{padding:15px;border-bottom:1px solid #ddd}
 tr:hover{background:#f9f9f9}
 .empty{background:white;padding:40px;text-align:center;border-radius:5px}
-a{color:#E91E63;text-decoration:none}
+a{color:#6f42c1;text-decoration:none}
 a:hover{text-decoration:underline}
 .links{margin-top:20px}
-.btn{display:inline-block;padding:10px 20px;background:#E91E63;color:white;text-decoration:none;border-radius:5px;margin:5px}
-.btn:hover{background:#c2185b}
+.btn{display:inline-block;padding:10px 20px;background:#6f42c1;color:white;text-decoration:none;border-radius:5px;margin:5px}
+.btn:hover{background:#5a2fa0}
 </style>
 </head>
 <body>

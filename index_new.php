@@ -7,26 +7,26 @@
         * { margin: 0; padding: 0; }
         body { font-family: Arial, sans-serif; }
         .nav { background: white; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .logo { font-size: 20px; font-weight: bold; color: #E91E63; }
+        .logo { font-size: 20px; font-weight: bold; color: #6f42c1; }
         .nav-links { display: flex; gap: 20px; }
         .nav-links a { text-decoration: none; color: #333; }
-        .nav-links a:hover { color: #E91E63; }
+        .nav-links a:hover { color: #6f42c1; }
         .auth-links { display: flex; gap: 10px; }
         .auth-links a { text-decoration: none; padding: 8px 15px; border-radius: 3px; }
-        .login-btn { color: #E91E63; border: 1px solid #E91E63; }
-        .signup-btn { background: #E91E63; color: white; }
+        .login-btn { color: #6f42c1; border: 1px solid #6f42c1; }
+        .signup-btn { background: #6f42c1; color: white; }
         .hero { position: relative; height: 500px; overflow: hidden; }
         .hero img { width: 100%; height: 100%; object-fit: cover; }
         .hero-overlay { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.3); display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; }
         .hero-overlay h1 { font-size: 48px; margin-bottom: 10px; }
         .hero-overlay p { font-size: 24px; margin-bottom: 30px; }
-        .hero-overlay button { background: #E91E63; color: white; border: none; padding: 12px 30px; font-size: 18px; cursor: pointer; border-radius: 3px; }
-        .hero-overlay button:hover { background: #c2185b; }
+        .hero-overlay button { background: #6f42c1; color: white; border: none; padding: 12px 30px; font-size: 18px; cursor: pointer; border-radius: 3px; }
+        .hero-overlay button:hover { background: #5a2fa0; }
         .container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
         .sections { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 40px; }
         .section-box { background: white; padding: 20px; border-radius: 5px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .section-box h3 { color: #E91E63; margin-bottom: 10px; }
-        .section-box a { color: #E91E63; text-decoration: none; }
+        .section-box h3 { color: #6f42c1; margin-bottom: 10px; }
+        .section-box a { color: #6f42c1; text-decoration: none; }
     </style>
 </head>
 <body>

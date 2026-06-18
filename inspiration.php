@@ -4,12 +4,12 @@
     <title>Inspiration</title>
     <style>
         body { font-family: Arial; background: #f0f0f0; margin: 0; padding: 0; }
-        .header { background: #E91E63; color: white; padding: 30px; text-align: center; }
+        .header { background: #6f42c1; color: white; padding: 30px; text-align: center; }
         .container { max-width: 1000px; margin: 0 auto; padding: 20px; }
-        .card { background: white; padding: 20px; margin: 15px 0; border-left: 4px solid #E91E63; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .card h3 { color: #E91E63; margin: 0 0 10px 0; }
+        .card { background: white; padding: 20px; margin: 15px 0; border-left: 4px solid #6f42c1; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        .card h3 { color: #6f42c1; margin: 0 0 10px 0; }
         .footer { text-align: center; padding: 20px; }
-        a { color: #E91E63; text-decoration: none; }
+        a { color: #6f42c1; text-decoration: none; }
         a:hover { text-decoration: underline; }
     </style>
 </head>

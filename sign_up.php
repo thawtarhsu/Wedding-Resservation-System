@@ -7,8 +7,8 @@
         body { font-family: Arial; background: #f0f0f0; padding: 50px; margin: 0; }
         .form { max-width: 500px; margin: 0 auto; background: white; padding: 30px; border-radius: 5px; }
         input { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ddd; box-sizing: border-box; }
-        button { width: 100%; padding: 10px; background: #E91E63; color: white; border: none; cursor: pointer; margin-top: 10px; }
-        a { color: #E91E63; }
+        button { width: 100%; padding: 10px; background: #6f42c1; color: white; border: none; cursor: pointer; margin-top: 10px; }
+        a { color: #6f42c1; }
         .error { color: red; padding: 10px; background: #ffe6e6; margin: 10px 0; }
     </style>
 </head>

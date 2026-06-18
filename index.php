@@ -7,28 +7,28 @@
         * { margin: 0; padding: 0; }
         body { font-family: Arial, sans-serif; }
         .nav { background: white; padding: 15px 30px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .logo { font-size: 24px; font-weight: bold; color: #E91E63; }
+        .logo { font-size: 24px; font-weight: bold; color: #6f42c1; }
         .nav-links { display: flex; gap: 30px; }
         .nav-links a { text-decoration: none; color: #333; font-weight: 500; }
-        .nav-links a:hover { color: #E91E63; }
+        .nav-links a:hover { color: #6f42c1; }
         .auth { display: flex; gap: 10px; align-items: center; }
         .auth a { text-decoration: none; padding: 8px 15px; border-radius: 3px; }
-        .login { border: 2px solid #E91E63; color: #E91E63; }
-        .signup { background: #E91E63; color: white; }
-        .admin-btn { background: #FF9800; color: white; }
+        .login { border: 2px solid #6f42c1; color: #6f42c1; }
+        .signup { background: #6f42c1; color: white; }
+        .admin-btn { background: #7b1fa2; color: white; }
         .hero { background: url('images/hh2.jpg') center/cover; height: 500px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; }
         .hero-overlay { background: rgba(0,0,0,0.3); width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; }
         .hero h1 { font-size: 48px; margin-bottom: 10px; }
         .hero p { font-size: 24px; margin-bottom: 30px; }
-        .hero button { background: #E91E63; color: white; border: none; padding: 15px 40px; font-size: 18px; cursor: pointer; border-radius: 3px; }
-        .hero button:hover { background: #c2185b; }
+        .hero button { background: #6f42c1; color: white; border: none; padding: 15px 40px; font-size: 18px; cursor: pointer; border-radius: 3px; }
+        .hero button:hover { background: #5a2fa0; }
         .container { max-width: 1200px; margin: 0 auto; padding: 40px 20px; }
         .sections { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
         .section { background: white; padding: 30px; text-align: center; border-radius: 5px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        .section h3 { color: #E91E63; margin: 10px 0; }
-        .section a { color: #E91E63; text-decoration: none; font-weight: 500; }
+        .section h3 { color: #6f42c1; margin: 10px 0; }
+        .section a { color: #6f42c1; text-decoration: none; font-weight: 500; }
         .section a:hover { text-decoration: underline; }
-        .footer { background: #E91E63; color: white; text-align: center; padding: 20px; }
+        .footer { background: #6f42c1; color: white; text-align: center; padding: 20px; }
     </style>
 </head>
 <body>

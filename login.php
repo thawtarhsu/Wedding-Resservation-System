@@ -55,7 +55,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
         
         .logo h1 {
-            color: #E91E63;
+            color: #6f42c1;
             font-size: 32px;
             margin-bottom: 5px;
         }
@@ -88,14 +88,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
         input:focus {
             outline: none;
-            border-color: #E91E63;
-            box-shadow: 0 0 0 3px rgba(233, 30, 99, 0.1);
+            border-color: #6f42c1;
+            box-shadow: 0 0 0 3px rgba(111, 66, 193, 0.1);
         }
         
         button {
             width: 100%;
             padding: 12px;
-            background: linear-gradient(135deg, #E91E63, #c2185b);
+            background: linear-gradient(135deg, #6f42c1, #5a2fa0);
             color: white;
             border: none;
             border-radius: 5px;
@@ -107,7 +107,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         
         button:hover {
             transform: translateY(-2px);
-            box-shadow: 0 5px 15px rgba(233, 30, 99, 0.4);
+            box-shadow: 0 5px 15px rgba(111, 66, 193, 0.4);
         }
         
         button:active {
@@ -155,7 +155,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
         
         .back-link a {
-            color: #E91E63;
+            color: #6f42c1;
             text-decoration: none;
             font-size: 14px;
         }
