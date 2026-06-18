@@ -1,0 +1,33 @@
+services:
+  apache:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: wedding-app
+    ports:
+      - "80:80"
+    volumes:
+      - .:/var/www/html
+    depends_on:
+      - db
+    networks:
+      - wedding-network
+
+  db:
+    image: mariadb:10.6
+    container_name: wedding-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: wedding123
+      MYSQL_DATABASE: wedding_db
+    volumes:
+      - db-data:/var/lib/mysql
+    networks:
+      - wedding-network
+
+volumes:
+  db-data:
+
+networks:
+  wedding-network:
+    driver: bridge
