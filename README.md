@@ -1,91 +1,82 @@
-# Wedding Management System 💍
-Welcome to the **Wedding Management System**! This project provides an all-in-one platform for planning and managing weddings efficiently. Designed for couples, vendors, and planners, it streamlines the entire process with an easy-to-use web-based solution.
+# Wedding Reservation System 🌟
+
+Welcome to the **Wedding Reservation System** — your new project repository for managing wedding bookings, client interactions, and event planning with a clean and easy-to-use PHP web app.
 
 ---
 
-## 🚀 Features
+## 🚀 About This Repository
 
-### For Couples:
-- Access a wide range of wedding services and vendors.
-- Customize wedding designs, themes, and plans.
-- Manage guest lists and event schedules effortlessly.
+This repository is now your own independent project hosted at:
 
-### For Vendors:
-- Showcase products and services to a larger audience.
-- Gain recognition and increase client base.
-- Manage bookings and communication effectively.
+`https://github.com/thawtarhsu/Wedding-Resservation-System`
 
-### For Planners:
-- Assist in coordinating between couples and vendors.
-- Simplify task management and ensure smooth execution.
+It includes the full application source code, assets, and database schema needed to run the system locally or deploy it on a PHP/MySQL server.
+
+---
+
+## ✨ Features
+
+- Secure login system for users and admin
+- Admin dashboard for managing reservations and site content
+- Wedding package and pricing pages
+- Booking and contact pages for clients
+- Event gallery and real wedding showcase
+- Responsive layout with Bootstrap and custom styling
 
 ---
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: HTML, CSS, Bootstrap
-- **Backend**: PHP
-- **Database**: MySQL
-- **Server**: XAMPP
+- PHP
+- MySQL
+- HTML5
+- CSS3 / Bootstrap
+- JavaScript
 
 ---
 
-## 🎨 Highlights
+## 📁 Repository Structure
 
-1. **User-Friendly Interface**:
-   - Intuitive navigation and clear layouts make it easy for users to access features.
-
-2. **Comprehensive Planning Tools**:
-   - Organize and track all wedding-related tasks in one place.
-
-3. **Secure and Reliable**:
-   - Ensures data security with robust authentication mechanisms.
-
----
-
-## 📂 Project Structure
-
-- **Login System**: Secure access for admins and users.
-- **Admin Dashboard**: Manage users, bookings, and services efficiently.
-- **Client Pages**: A tailored interface for couples to plan their dream weddings.
-- **Vendor Pages**: Empower vendors to promote their services.
-- **Dynamic Pricing and Packages**: Customizable offerings based on client preferences.
-- **Gallery**: Showcase events and completed projects.
+- `index.php` - Main landing page
+- `login.php`, `sign_up.php`, `register.php` - User authentication pages
+- `dashboard.php` - User dashboard
+- `admin/` - Admin panel and management pages
+- `gallery.php`, `real-weddings.php` - Visual showcase pages
+- `booking.php`, `package_detail.php`, `pricing.php` - Booking and pricing management
+- `include/` - Shared PHP includes
+- `css/`, `js/`, `images/`, `lightbox/` - Frontend assets
+- `DATABASE FILE/dbwedding.sql` - MySQL database schema
 
 ---
 
-## 🔍 How to Use
+## 🚀 How to Run Locally
 
-1. Clone the repository and set up the environment using XAMPP.
-2. Import the database schema provided.
-3. Access the application via a web browser and start managing your wedding tasks.
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/thawtarhsu/Wedding-Resservation-System.git
+   ```
+
+2. Copy the project into your local PHP server folder (for example, `htdocs` in XAMPP).
+3. Import `DATABASE FILE/dbwedding.sql` into your MySQL database.
+4. Update database credentials in your PHP config files if needed.
+5. Open the app in your browser, e.g. `http://localhost/Wedding-Reservation-System/`
+
+---
+
+## 📌 Notes
+
+- This project is now independent from any previous repository history.
+- Use this repository to continue building your own wedding reservation application.
+- Add a `.gitignore` file to exclude temporary files and avoid committing local environment data.
 
 ---
 
-## 📸 Screenshots
+## 📣 Want Improvements?
 
-### Login Page  
-![Login Page](outputs/login_page.png)  
+If you want, I can also:
 
-### Admin Dashboard  
-![Admin Dashboard](outputs/admin_dashboard.png)  
-
-### Admin Login Page  
-![Admin Login Page](outputs/admin_login_page.png)  
-
-### Client Management  
-![Client Management](outputs/client_page.png)  
-
-### Event Page  
-![Event Page](outputs/events_page.png)  
-
-### Gallery  
-![Gallery](outputs/Gallery_page.png)  
-
-### Services and Packages  
-![Services and Packages](outputs/services_and_packages.png)  
-
-### User Management Page  
-![User Management Page](outputs/user_management_page.png)  
-
----
+- add a `.gitignore`
+- remove unnecessary backup files like `index.php.bak` and `index.php.broken`
+- clean up old unused assets
+- improve the README with setup instructions specific to your environment
