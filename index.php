@@ -16,7 +16,7 @@
         .login { border: 2px solid #E91E63; color: #E91E63; }
         .signup { background: #E91E63; color: white; }
         .admin-btn { background: #FF9800; color: white; }
-        .hero { background: url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&h=600&fit=crop') center/cover; height: 500px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; }
+        .hero { background: url('images/hh2.jpg') center/cover; height: 500px; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; }
         .hero-overlay { background: rgba(0,0,0,0.3); width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; }
         .hero h1 { font-size: 48px; margin-bottom: 10px; }
         .hero p { font-size: 24px; margin-bottom: 30px; }
