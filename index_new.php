@@ -4,29 +4,41 @@
 <head>
     <title>Wedding Management System</title>
     <style>
-        * { margin: 0; padding: 0; }
-        body { font-family: Arial, sans-serif; }
-        .nav { background: white; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .logo { font-size: 20px; font-weight: bold; color: #6f42c1; }
-        .nav-links { display: flex; gap: 20px; }
-        .nav-links a { text-decoration: none; color: #333; }
-        .nav-links a:hover { color: #6f42c1; }
-        .auth-links { display: flex; gap: 10px; }
-        .auth-links a { text-decoration: none; padding: 8px 15px; border-radius: 3px; }
-        .login-btn { color: #6f42c1; border: 1px solid #6f42c1; }
-        .signup-btn { background: #6f42c1; color: white; }
-        .hero { position: relative; height: 500px; overflow: hidden; }
-        .hero img { width: 100%; height: 100%; object-fit: cover; }
-        .hero-overlay { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.3); display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; }
-        .hero-overlay h1 { font-size: 48px; margin-bottom: 10px; }
-        .hero-overlay p { font-size: 24px; margin-bottom: 30px; }
-        .hero-overlay button { background: #6f42c1; color: white; border: none; padding: 12px 30px; font-size: 18px; cursor: pointer; border-radius: 3px; }
-        .hero-overlay button:hover { background: #5a2fa0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html, body { min-height: 100%; }
+        body {
+            font-family: Arial, sans-serif;
+            background: url('images/hh2.jpg') center/cover no-repeat fixed;
+            color: #f9f4ff;
+        }
+        .nav { background: rgba(20, 3, 45, 0.92); padding: 18px 24px; display: flex; justify-content: space-between; align-items: center; position: relative; z-index: 2; }
+        .logo { font-size: 24px; font-weight: 700; color: #d3b6ff; }
+        .nav-links { display: flex; gap: 22px; }
+        .nav-links a { text-decoration: none; color: #f1e9ff; font-weight: 600; }
+        .nav-links a:hover { color: #c59eff; }
+        .auth-links { display: flex; gap: 10px; align-items: center; }
+        .auth-links a { text-decoration: none; padding: 10px 18px; border-radius: 8px; font-weight: 600; }
+        .login-btn { color: #d7c0ff; border: 1px solid #a178ff; }
+        .signup-btn { background: #9d4dff; color: white; }
+        .hero { min-height: calc(100vh - 82px); display: flex; align-items: center; justify-content: center; text-align: center; position: relative; }
+        .hero::before { content: '';
+            position: absolute;
+            inset: 0;
+            background: rgba(13, 5, 25, 0.55);
+            backdrop-filter: blur(2px);
+        }
+        .hero-overlay { position: relative; z-index: 1; max-width: 900px; padding: 0 20px; }
+        .hero-overlay h1 { font-size: 58px; margin-bottom: 16px; line-height: 1.05; color: #f7efff; text-shadow: 0 18px 35px rgba(0,0,0,0.35); }
+        .hero-overlay p { font-size: 24px; margin-bottom: 32px; color: #e8ddff; }
+        .hero-overlay button { background: #bf6dff; color: white; border: none; padding: 16px 42px; font-size: 18px; cursor: pointer; border-radius: 8px; transition: transform 0.2s ease, background 0.2s ease; }
+        .hero-overlay button:hover { background: #8f3fff; transform: translateY(-2px); }
         .container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
         .sections { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 40px; }
-        .section-box { background: white; padding: 20px; border-radius: 5px; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-        .section-box h3 { color: #6f42c1; margin-bottom: 10px; }
-        .section-box a { color: #6f42c1; text-decoration: none; }
+        .section-box { background: rgba(24, 10, 67, 0.80); padding: 28px; border-radius: 22px; text-align: center; box-shadow: 0 20px 40px rgba(0,0,0,0.20); border: 1px solid rgba(255,255,255,0.08); }
+        .section-box h3 { color: #d9c3ff; margin-bottom: 16px; }
+        .section-box p { color: #e8dcff; margin-bottom: 18px; }
+        .section-box a { color: #b693ff; text-decoration: none; font-weight: 600; }
+        .section-box a:hover { color: #f3e4ff; }
     </style>
 </head>
 <body>
@@ -41,17 +53,17 @@
         </div>
         <div class="auth-links">
             <?php if (isset($_SESSION['logged_in'])): ?>
-                <span><?= $_SESSION['user_name'] ?></span>
+                <span style="color: #dbc8ff;"><?= $_SESSION['user_name'] ?></span>
                 <a href="logout.php" class="login-btn">Logout</a>
             <?php else: ?>
                 <a href="admin/login.php" class="login-btn">ADMIN LOGIN</a>
                 <a href="login.php" class="login-btn">LOGIN</a>
             <?php endif; ?>
+            <a href="sign_up.php" class="signup-btn">JOIN NOW</a>
         </div>
     </div>
 
     <div class="hero">
-        <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1200&h=600&fit=crop" alt="Wedding">
         <div class="hero-overlay">
             <h1>Your Perfect Wedding Awaits</h1>
             <p>Plan your dream wedding with us</p>
